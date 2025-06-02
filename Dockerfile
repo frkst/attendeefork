@@ -87,6 +87,8 @@ WORKDIR /opt
 
 FROM deps AS build
 
+EXPOSE 8000
+
 WORKDIR $cwd
 COPY . .
 
