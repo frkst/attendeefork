@@ -34,7 +34,7 @@ ADMINS = []
 
 SERVER_EMAIL = "noreply@mail.attendee.dev"
 
-CSRF_TRUSTED_ORIGINS = ["https://*.attendee.dev"]
+CSRF_TRUSTED_ORIGINS = ["https://attendeefork-production.up.railway.app"]
 
 # Log more stuff in staging
 LOGGING = {
