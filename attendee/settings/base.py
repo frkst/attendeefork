@@ -183,7 +183,7 @@ SPECTACULAR_SETTINGS = {
         {"name": "Bots", "description": "Bot management endpoints"},
     ],
     "SERVERS": [
-        {"url": "https://app.attendee.dev", "description": "Production server"},
+        {"url": "https://attendeefork-production.up.railway.app", "description": "Production server"},
     ],
 }
 # publish with python manage.py spectacular --color --file docs/openapi.yml
